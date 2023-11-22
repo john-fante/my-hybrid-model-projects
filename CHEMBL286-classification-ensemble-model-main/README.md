@@ -27,20 +27,22 @@ I have used the following methods.
 
 * Predictions during training
 
-
-https://github.com/john-fante/CHEMBL286-classification-ensemble-model/assets/50263592/fbec9566-28aa-443d-967e-82dadf8dc2a2
+https://github.com/john-fante/my-hybrid-model-projects/assets/50263592/bf825ca8-5490-462d-988e-2c59e2acddd4
 
 
 <br>
 
 * Base CNN model results
 
-![dmafngt](https://github.com/john-fante/CHEMBL286-classification-ensemble-model/assets/50263592/17ff6f83-782d-45d9-a331-43b9cf6a92d3)
+![267955086-17ff6f83-782d-45d9-a331-43b9cf6a92d3](https://github.com/john-fante/my-hybrid-model-projects/assets/50263592/7b4c6693-f2b3-4427-8c5f-69b1f0c713e3)
+
+
 
 <br>
 
 * Confusion matrices
-![New Project (2)](https://github.com/john-fante/CHEMBL286-classification-ensemble-model/assets/50263592/0708ff58-1556-4cb5-a28b-9816de561cf9)
+
+![267953463-0708ff58-1556-4cb5-a28b-9816de561cf9](https://github.com/john-fante/my-hybrid-model-projects/assets/50263592/e2e152b4-b796-4508-ae5d-4104448b8c8c)
 
 
 ## References
