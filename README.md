@@ -1,2 +1,11 @@
 # My Hybrid Model (Deep Learning and Machine Learning) Projects
 
+<li> <a href ="https://github.com/john-fante/my-hybrid-model-projects/tree/main/CHEMBL286-classification-ensemble-model-main"> (QSAR) Renin Activity (ChEMBL286) Classification w/Ensemble Model(CNN + CatBoost) </a>  (F1-Score: 0.84) </li>
+
+<li> <a href ="https://github.com/john-fante/my-hybrid-model-projects/tree/main/leaf-disease-detection-meta-learning-main"> Leaf Disease Detection w/Meta-Learning (ViT, PCA, SVM) </a>(F1 Score: 0.92) </li>
+<li> <a href ="https://github.com/john-fante/my-hybrid-model-projects/tree/main/flower-detection-meta-learning-main"> Flower Detection w/Meta Learning(ViT, CatBoost, SHAP) </a>(F1 Score: 0.96) </li>
+<li> <a href ="https://github.com/john-fante/my-hybrid-model-projects/tree/main/skin-cancer-detect-meta-learning-main"> Skin Cancer Detection w/Meta Learning (ConvMixer, CatBoost, SHAP) </a> </li>
+
+
+<hr>
+<br>
