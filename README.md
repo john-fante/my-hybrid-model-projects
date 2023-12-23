@@ -7,5 +7,5 @@
 <li> <a href ="https://github.com/john-fante/my-hybrid-model-projects/tree/main/skin-cancer-detect-meta-learning-main"> Skin Cancer Detection w/Meta Learning (ConvMixer, CatBoost, SHAP) </a> </li>
 
 
-<hr>
+
 <br>
