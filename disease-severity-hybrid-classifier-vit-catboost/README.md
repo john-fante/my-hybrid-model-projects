@@ -1,16 +1,18 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Disease Severity Hybrid Classifier (ViT,CatBoost)
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/disease-severity-hybrid-classifier-vit-catboost )
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+I tried a hybrid model in this project. In this technique, first I used a custom ViT (Vision Transformer) model for the feature extraction stage, then applied PCA for the curse of dimensionality problem, and finally used a CatBoost model for the classification stage.
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
-<br>
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+![download (34)](https://github.com/john-fante/my-hybrid-model-projects/assets/50263592/285a4b93-5c0d-4ae0-a51d-457c9f723259)
+
+
+* The project took place using Google TPU,
+* I used a customized ViT model [1],
+* Used <b>tf.data</b> for input pipeline,
+* I used a CatBoost model for classification,
+
+
+## References
+1. https://github.com/faustomorales/vit-keras
