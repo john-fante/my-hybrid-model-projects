@@ -1,5 +1,7 @@
 ## Mammals Classification w/Ensemble Deep Learning
 
+(kaggle link -> https://www.kaggle.com/code/banddaniel/mammals-classification-w-ensemble-deep-learning )
+
 First of all, I am very keen on trying new methods. This is why I tried an Ensemble Deep Learning method in this project. I impressed an article named "HCF: A Hybrid CNN Framework for Behavior Detection of Distracted Drivers" in this project [1]. In this technique, first I used 2 pretrained models (Xception, and DenseNet201). Then saved models and weights for using in the ensemble model. At this stage, I combined the 2 models with the GlobalAveragePooling2D layer outputs (as in the article). In conclusion, there is a lightly improvement in respect of the model's accuracy and F1 score.
 
 <i><b><span style="color:#e74c3c;"> Note: Of course, there are other models better than my model in respect of the classification metrics, but I tried to a basic implementation of a paper. </span> </b></i>
